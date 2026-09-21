@@ -7,5 +7,14 @@
 </head>
 <body>
 
+    <?php
+        $fechaActual = date('d/m/Y');
+        $horaActual = date('H:i:s');
+    ?>
+
+    <h1>Demostración de PHP</h1>
+    <p>Fecha del servidor: <?php echo $fechaActual; ?></p>
+    <p>Hora del servidor: <?php echo $horaActual; ?></p>
+    
 </body>
 </html>
